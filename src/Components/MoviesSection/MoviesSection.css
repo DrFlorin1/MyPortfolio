@@ -1,0 +1,30 @@
+/* MoviesSection.css */
+.MoviesSection {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .filter-buttons {
+    margin-top: 20px;
+  }
+  
+  .filter-buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #555;
+  }
+  
+  .filter-buttons button.active {
+    background-color: #555;
+  }
+  
